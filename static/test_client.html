@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Smart Dermatology Assistant — Test Client</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 640px; margin: 40px auto; padding: 0 16px; color: #1a1a1a; }
+  h1 { font-size: 1.4rem; }
+  label { display: block; margin-top: 16px; font-weight: 600; }
+  input[type=text], textarea { width: 100%; padding: 8px; margin-top: 4px; box-sizing: border-box; }
+  input[type=file] { margin-top: 4px; }
+  button { margin-top: 20px; padding: 10px 20px; background: #2563eb; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 1rem; }
+  button:disabled { background: #93a3b8; cursor: not-allowed; }
+  #result { margin-top: 24px; padding: 16px; background: #f4f6f8; border-radius: 8px; white-space: pre-wrap; font-family: monospace; font-size: 0.85rem; display: none; }
+  #status { margin-top: 12px; font-size: 0.9rem; }
+  .ok { color: #16a34a; } .err { color: #dc2626; }
+</style>
+</head>
+<body>
+  <h1>Smart Dermatology Assistant — Backend Test Client</h1>
+  <p>Point <code>API_BASE</code> below at your running backend (local or hosted), then upload an image + description to exercise the full image → text → fusion → recommendation pipeline.</p>
+
+  <label>API base URL</label>
+  <input type="text" id="apiBase" value="http://localhost:8000" />
+
+  <label>Skin image</label>
+  <input type="file" id="imageInput" accept="image/png, image/jpeg, image/webp" />
+
+  <label>Describe your skin concern</label>
+  <textarea id="descInput" rows="4" placeholder="e.g. My face gets oily by midday, I have small red bumps on my cheeks, and it feels itchy.">My face gets oily by midday, I keep getting small red pimples on my chin, and my nose has visible black dots.</textarea>
+
+  <label>Skin type (optional)</label>
+  <input type="text" id="skinTypeInput" placeholder="e.g. oily" />
+
+  <button id="submitBtn" onclick="runDiagnosis()">Run Diagnosis</button>
+  <div id="status"></div>
+  <pre id="result"></pre>
+
+<script>
+async function runDiagnosis() {
+  const btn = document.getElementById('submitBtn');
+  const statusEl = document.getElementById('status');
+  const resultEl = document.getElementById('result');
+  const apiBase = document.getElementById('apiBase').value.replace(/\/$/, '');
+  const imageFile = document.getElementById('imageInput').files[0];
+  const description = document.getElementById('descInput').value;
+  const skinType = document.getElementById('skinTypeInput').value;
+
+  resultEl.style.display = 'none';
+  if (!imageFile) { statusEl.innerHTML = '<span class="err">Please choose an image first.</span>'; return; }
+  if (!description.trim()) { statusEl.innerHTML = '<span class="err">Please enter a description.</span>'; return; }
+
+  const form = new FormData();
+  form.append('image', imageFile);
+  form.append('description', description);
+  if (skinType.trim()) form.append('skin_type', skinType);
+
+  btn.disabled = true;
+  statusEl.innerHTML = 'Running inference... (first request can be slow while the model warms up)';
+
+  try {
+    const res = await fetch(`${apiBase}/diagnose`, { method: 'POST', body: form });
+    const data = await res.json();
+    if (!res.ok) {
+      statusEl.innerHTML = `<span class="err">Error ${res.status}: ${data.detail || JSON.stringify(data)}</span>`;
+    } else {
+      statusEl.innerHTML = '<span class="ok">Success.</span>';
+      resultEl.style.display = 'block';
+      resultEl.textContent = JSON.stringify(data, null, 2);
+    }
+  } catch (err) {
+    statusEl.innerHTML = `<span class="err">Request failed: ${err.message}. Is the API running and CORS-enabled?</span>`;
+  } finally {
+    btn.disabled = false;
+  }
+}
+</script>
+</body>
+</html>

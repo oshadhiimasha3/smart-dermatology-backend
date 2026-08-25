@@ -1,0 +1,74 @@
+{
+  "vocabulary": {
+    "Acne marks": [
+      "acne marks", "acne scars", "spots left after pimples", "marks from old pimples",
+      "post acne marks", "pimple marks", "leftover marks", "scars from breakouts",
+      "marks where pimples used to be", "spots after acne healed", "old pimple marks"
+    ],
+    "Blackheads": [
+      "blackheads", "black dots", "black spots on my nose", "dark dots", "small black bumps",
+      "black specks", "clogged black pores", "tiny black dots", "black pin dots",
+      "little black bumps on my nose", "black stuff in my pores", "black dots on my nose",
+      "black dots in my nose"
+    ],
+    "Breakouts": [
+      "breakouts", "breaking out", "new pimples", "sudden pimples", "flare up", "flareup",
+      "outbreak of spots", "keep getting pimples", "random pimples appearing",
+      "new spots showing up"
+    ],
+    "Clogged pores": [
+      "clogged pores", "blocked pores", "stuffed pores", "pores filled with dirt",
+      "clogged skin", "pores full of gunk", "pores feel blocked", "congested pores"
+    ],
+    "Dark spots": [
+      "dark spots", "dark patches", "dark marks", "brown spots", "discoloration",
+      "discoloured skin", "pigmented spots", "sun spots", "dark blotches",
+      "uneven dark patches", "dark spots on my cheeks", "dark spots on my face"
+    ],
+    "Dry cheeks": [
+      "dry cheeks", "dry cheek area", "flaky cheeks", "cheeks feel dry", "tight cheeks",
+      "my cheeks are dry", "cheeks feel tight"
+    ],
+    "Dry patches": [
+      "dry patches", "flaky patches", "rough dry areas", "scaly patches",
+      "flaking skin patches", "patchy dry skin", "rough flaky spots"
+    ],
+    "Excess oil": [
+      "excess oil", "too much oil", "very oily skin", "really oily skin", "oily all day",
+      "excess sebum", "skin gets oily fast", "oil builds up quickly", "so much oil"
+    ],
+    "Fine lines": [
+      "fine lines", "small wrinkles", "tiny lines", "thin lines", "early wrinkles",
+      "crow's feet", "little lines forming", "faint lines on my face"
+    ],
+    "Greasy appearance": [
+      "greasy appearance", "looks greasy", "shiny face", "oily shine", "greasy look",
+      "shiny all day", "face looks shiny", "skin looks greasy", "really greasy",
+      "very shiny skin", "looks really greasy", "looks so greasy"
+    ],
+    "Oily T-zone": [
+      "oily t-zone", "oily t zone", "oily tzone", "oily forehead and nose",
+      "greasy nose and forehead", "oily center of face", "oily forehead", "oily nose and chin"
+    ],
+    "Peeling": [
+      "peeling", "skin peeling", "skin flaking off", "shedding skin", "skin coming off",
+      "my skin is peeling", "flaking off in pieces"
+    ],
+    "Rash": [
+      "rash", "red bumps everywhere", "itchy rash", "skin rash", "hives",
+      "red irritated patches", "breaking out in a rash", "red itchy patches"
+    ],
+    "Sagging skin": [
+      "sagging skin", "loose skin", "saggy skin", "skin drooping", "less firm skin",
+      "losing firmness", "skin feels loose", "skin isn't as firm anymore"
+    ],
+    "Skin irritation": [
+      "skin irritation", "irritated skin", "stinging skin", "burning sensation",
+      "itchy irritated skin", "sensitive reacting skin", "skin feels irritated", "skin stings"
+    ],
+    "Whiteheads": [
+      "whiteheads", "white bumps", "white dots", "small white bumps", "white pimples",
+      "closed bumps", "white pin bumps", "little white bumps", "white spots on my skin"
+    ]
+  }
+}

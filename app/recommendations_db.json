@@ -1,0 +1,330 @@
+{
+  "conditions": {
+    "Acne": {
+      "possible_causes": [
+        "Excess sebum production clogging pores",
+        "Bacterial buildup (Cutibacterium acnes)",
+        "Hormonal fluctuations (puberty, menstrual cycle, PCOS)",
+        "Comedogenic (pore-clogging) skincare or makeup products",
+        "High-glycemic diet or dairy sensitivity in some individuals",
+        "Stress-related cortisol spikes"
+      ],
+      "key_ingredients": [
+        "Salicylic Acid (BHA, 0.5-2%) - unclogs pores and exfoliates inside the follicle",
+        "Benzoyl Peroxide (2.5-5%) - kills acne-causing bacteria",
+        "Niacinamide (5-10%) - reduces inflammation and regulates oil",
+        "Adapalene (0.1%, OTC retinoid) - normalizes skin cell turnover",
+        "Azelaic Acid (10-15%) - anti-inflammatory, also fades post-acne marks",
+        "Tea Tree Oil (5%) - mild antibacterial alternative for sensitive users"
+      ],
+      "routine": [
+        "AM: Gentle, non-comedogenic cleanser",
+        "AM: Oil-free, non-comedogenic moisturizer",
+        "AM: Broad-spectrum SPF 30+ labeled 'non-comedogenic'",
+        "PM: Cleanse thoroughly (double cleanse if wearing makeup/sunscreen)",
+        "PM: Benzoyl peroxide or salicylic acid spot/leave-on treatment",
+        "PM: Adapalene 0.1% every other night, building up slowly to reduce irritation",
+        "PM: Light, oil-free moisturizer to buffer dryness from actives",
+        "Weekly: Gentle clay mask 1x if skin runs oily (skip on nights you use a retinoid)"
+      ],
+      "avoid": [
+        "Picking or squeezing lesions (raises scarring and infection risk)",
+        "Heavy, comedogenic oils (coconut oil, cocoa butter) on the face",
+        "Over-washing or over-exfoliating more than twice daily",
+        "Layering benzoyl peroxide and a retinoid in the same application at first",
+        "Harsh physical scrubs with large, jagged exfoliating particles"
+      ],
+      "see_a_doctor_if": "Acne is cystic, nodular, or painful, is leaving scars, or shows no improvement after 8-12 weeks of consistent care - a dermatologist can prescribe oral antibiotics, hormonal therapy, or isotretinoin.",
+      "product_types": ["Gel cleanser", "BHA serum or toner", "Spot treatment gel", "Oil-free moisturizer", "Mineral or non-comedogenic sunscreen"]
+    },
+    "Combination Skin": {
+      "possible_causes": [
+        "Uneven sebum distribution (oily T-zone, drier or normal cheeks)",
+        "Genetics",
+        "Seasonal or climate shifts",
+        "Over-stripping cleansers triggering compensatory oil in the T-zone"
+      ],
+      "key_ingredients": [
+        "Niacinamide (5%) - balances oil production across the whole face",
+        "Lightweight Hyaluronic Acid - hydrates drier areas without feeling heavy",
+        "Gentle AHA/BHA (mandelic or salicylic, 1-2%) - 2-3x/week for the T-zone",
+        "Squalane - light, non-greasy hydration for cheeks or dry patches"
+      ],
+      "routine": [
+        "AM: Gel-cream cleanser that doesn't over-strip or over-hydrate",
+        "AM: Niacinamide serum applied all over",
+        "AM: Lightweight moisturizer - thin layer on the T-zone, slightly richer on cheeks",
+        "AM: Daily SPF 30+",
+        "PM: Cleanse gently",
+        "PM: Alternate a BHA night (T-zone focus) with a hydrating-serum night",
+        "PM: Moisturize by zone rather than uniformly",
+        "Weekly: Clay mask on the T-zone only; hydrating mask on cheeks if needed"
+      ],
+      "avoid": [
+        "Applying one heavy, rich product uniformly across the whole face",
+        "Skipping moisturizer on oilier zones (this causes rebound oil)"
+      ],
+      "see_a_doctor_if": "This is a cosmetic skin type rather than a condition - see a dermatologist only if T-zone breakouts or cheek dryness become severe or persistent despite zone-specific care.",
+      "product_types": ["Gel-cream cleanser", "Niacinamide serum", "Zone-specific moisturizer", "Gentle exfoliant"]
+    },
+    "Dry Skin": {
+      "possible_causes": [
+        "Impaired lipid/skin barrier",
+        "Cold or low-humidity weather",
+        "Over-washing or harsh, sulfate-based cleansers",
+        "Natural aging (reduced oil production)",
+        "General dehydration",
+        "Certain medications (e.g. retinoids, diuretics)"
+      ],
+      "key_ingredients": [
+        "Hyaluronic Acid - draws water into the skin",
+        "Ceramides - rebuild and reinforce the skin barrier",
+        "Glycerin - humectant that holds onto moisture",
+        "Squalane - lightweight occlusive that seals hydration in",
+        "Panthenol (Pro-Vitamin B5) - soothes and supports barrier repair"
+      ],
+      "routine": [
+        "AM: Cream or non-foaming cleanser",
+        "AM: Hyaluronic acid serum applied to damp skin",
+        "AM: Rich, ceramide-based moisturizer",
+        "AM: SPF 30+ in a moisturizing formula",
+        "PM: Cleanse gently",
+        "PM: Layer hyaluronic acid, then a heavier ceramide cream or balm",
+        "PM: Optional facial oil (e.g. squalane) as a final sealing layer",
+        "Weekly: Gentle hydrating mask 1-2x; limit exfoliation to once a week or less"
+      ],
+      "avoid": [
+        "Hot water or long showers on the face",
+        "Alcohol-based toners",
+        "Foaming, sulfate-heavy cleansers",
+        "Over-exfoliating with AHAs or retinoids"
+      ],
+      "see_a_doctor_if": "Skin cracks, bleeds, or is persistently itchy and inflamed, or you suspect an underlying condition like eczema or dermatitis.",
+      "product_types": ["Cream cleanser", "Hydrating serum", "Barrier-repair cream", "Facial oil", "Moisturizing SPF"]
+    },
+    "Enlarged Pores": {
+      "possible_causes": [
+        "Excess oil production stretching pore walls",
+        "Reduced skin elasticity and collagen with age",
+        "Genetics",
+        "Chronic sun damage",
+        "Buildup of debris/blackheads over time"
+      ],
+      "key_ingredients": [
+        "Niacinamide (5-10%) - regulates oil and visually refines pore appearance",
+        "Retinoids (adapalene 0.1% or retinol) - boosts collagen and skin turnover",
+        "Salicylic Acid (BHA, 1-2%) - keeps pores clear of debris",
+        "Vitamin C - supports collagen production"
+      ],
+      "routine": [
+        "AM: Gentle cleanser",
+        "AM: Niacinamide serum",
+        "AM: Lightweight, oil-free moisturizer",
+        "AM: SPF 30+ (essential - UV breaks down the collagen that keeps pores tight)",
+        "PM: Cleanse",
+        "PM: BHA 2-3x/week OR a retinoid on alternating nights (avoid combining both at first)",
+        "PM: Oil-free moisturizer",
+        "Weekly: Clay mask 1x for oil control"
+      ],
+      "avoid": [
+        "Heavy, pore-clogging products",
+        "Excessive scrubbing (irritation can make pores look more prominent)",
+        "Skipping sunscreen"
+      ],
+      "see_a_doctor_if": "This is a cosmetic concern with no medical urgency - a dermatologist can discuss in-clinic options such as microneedling or laser resurfacing if you'd like a more noticeable improvement.",
+      "product_types": ["Niacinamide serum", "BHA toner", "Lightweight gel moisturizer", "Daily sunscreen"]
+    },
+    "Hyperpigmentation": {
+      "possible_causes": [
+        "Post-inflammatory marks left behind after healed acne or injury",
+        "Cumulative UV/sun exposure",
+        "Hormonal changes such as melasma (pregnancy, birth control)",
+        "Certain medications",
+        "Repeated skin friction or injury"
+      ],
+      "key_ingredients": [
+        "Vitamin C (10-20%) - antioxidant with brightening effect",
+        "Niacinamide (5%) - reduces transfer of pigment to skin cells",
+        "Alpha Arbutin (2%) - inhibits the enzyme that produces melanin",
+        "Azelaic Acid (10-15%) - gentle option, generally considered safe in pregnancy",
+        "Tranexamic Acid - specifically helpful for melasma-type pigmentation",
+        "AHA (glycolic or lactic acid, 5-10%) - speeds cell turnover to fade marks faster"
+      ],
+      "routine": [
+        "AM: Gentle cleanser",
+        "AM: Vitamin C serum",
+        "AM: Moisturizer",
+        "AM: SPF 30-50, reapplied if outdoors - sun exposure is the single biggest driver of relapse",
+        "PM: Cleanse",
+        "PM: Niacinamide or azelaic acid serum",
+        "PM: AHA exfoliant 2-3x/week (not on the same night as other strong actives)",
+        "PM: Moisturizer"
+      ],
+      "avoid": [
+        "Sun exposure without reapplied SPF",
+        "Picking at healing acne or scabs",
+        "Harsh physical scrubs, which can worsen post-inflammatory marks"
+      ],
+      "see_a_doctor_if": "Dark patches are spreading rapidly, asymmetric, changing in texture, or not fading after 3-6 months of consistent care - this helps rule out melasma needing prescription treatment or other underlying causes.",
+      "product_types": ["Vitamin C serum", "Brightening serum (arbutin/tranexamic acid)", "AHA exfoliant", "High-SPF sunscreen"]
+    },
+    "Normal Skin": {
+      "possible_causes": [
+        "Balanced sebum production and healthy barrier function"
+      ],
+      "key_ingredients": [
+        "Antioxidants (Vitamin C/E) - preventative, protects against environmental damage",
+        "Hyaluronic Acid - maintains hydration",
+        "Peptides - support long-term collagen health",
+        "SPF - the single most important preventative step at any age"
+      ],
+      "routine": [
+        "AM: Gentle cleanser",
+        "AM: Antioxidant serum",
+        "AM: Lightweight moisturizer",
+        "AM: SPF 30+",
+        "PM: Cleanse",
+        "PM: Hydrating serum",
+        "PM: Moisturizer",
+        "PM: Optional retinol 2-3x/week from late-20s onward as a preventative step",
+        "Weekly: Gentle exfoliation once for cell turnover maintenance"
+      ],
+      "avoid": [
+        "Over-complicating your routine with unnecessary actives",
+        "Skipping SPF just because skin currently looks clear and healthy"
+      ],
+      "see_a_doctor_if": "No specific concern here - maintain your routine, monitor for any changes over time, and keep up with annual skin checks.",
+      "product_types": ["Gentle cleanser", "Antioxidant serum", "Daily moisturizer", "Sunscreen"]
+    },
+    "Oily Skin": {
+      "possible_causes": [
+        "Overactive sebaceous glands",
+        "Genetics",
+        "Hormonal factors (androgens)",
+        "Humid climate",
+        "Over-stripping the skin, which triggers rebound oil production",
+        "Heavy, comedogenic products"
+      ],
+      "key_ingredients": [
+        "Niacinamide (10%) - regulates sebum production",
+        "Salicylic Acid (BHA, 1-2%) - keeps pores clear",
+        "Clay (kaolin/bentonite) - absorbs excess surface oil",
+        "Oil-free Hyaluronic Acid - hydrates without adding heaviness",
+        "Zinc PCA - supports oil control"
+      ],
+      "routine": [
+        "AM: Gel-based cleanser",
+        "AM: Niacinamide serum",
+        "AM: Oil-free gel moisturizer (do not skip this step)",
+        "AM: Matte-finish, oil-free SPF",
+        "PM: Cleanse (double cleanse if wearing makeup or sunscreen)",
+        "PM: BHA toner or serum",
+        "PM: Lightweight moisturizer",
+        "Weekly: Clay mask 1-2x"
+      ],
+      "avoid": [
+        "Harsh, stripping cleansers or alcohol-based toners (these trigger MORE oil via rebound)",
+        "Skipping moisturizer",
+        "Over-washing more than twice a day"
+      ],
+      "see_a_doctor_if": "Routine care usually manages this well on its own - see a dermatologist if oiliness is sudden, severe, or accompanied by other symptoms, since it may be worth investigating a hormonal cause.",
+      "product_types": ["Gel cleanser", "Oil-control serum", "Mattifying moisturizer", "Oil-free sunscreen"]
+    },
+    "Redness": {
+      "possible_causes": [
+        "Irritation or a sensitized skin barrier",
+        "Rosacea",
+        "Allergic or contact reaction",
+        "Environmental triggers (wind, heat, spicy food, alcohol)",
+        "Over-exfoliation"
+      ],
+      "key_ingredients": [
+        "Centella Asiatica (Cica) - soothing, supports wound healing",
+        "Niacinamide (low %, under 5% to start) - supports the barrier without irritation",
+        "Panthenol (Pro-Vitamin B5) - calming and hydrating",
+        "Ceramides - repair and reinforce the skin barrier",
+        "Azelaic Acid - can help specifically with rosacea-related redness"
+      ],
+      "routine": [
+        "AM: Fragrance-free, gentle cream or gel cleanser",
+        "AM: Barrier-repair moisturizer containing cica or ceramides",
+        "AM: Mineral SPF (zinc oxide/titanium dioxide tend to be gentler than chemical filters)",
+        "PM: Same gentle cleanser",
+        "PM: Soothing serum (centella or panthenol)",
+        "PM: Ceramide moisturizer",
+        "Weekly: Patch-test any new product for 48 hours before full-face use; pause actives like retinoids/AHA/BHA until redness settles"
+      ],
+      "avoid": [
+        "Physical scrubs",
+        "Alcohol-based toners",
+        "Very hot water when cleansing",
+        "Fragranced products",
+        "Over-exfoliating"
+      ],
+      "see_a_doctor_if": "Redness is persistent, comes with visible blood vessels, bumps, or flushing episodes (possible rosacea) - a dermatologist can prescribe targeted treatment.",
+      "product_types": ["Fragrance-free cleanser", "Soothing serum", "Barrier-repair moisturizer", "Mineral sunscreen"]
+    },
+    "Wrinkles": {
+      "possible_causes": [
+        "Natural aging and collagen loss",
+        "Cumulative UV exposure (photoaging - the largest preventable factor)",
+        "Repeated facial expressions",
+        "Dehydration",
+        "Smoking",
+        "Habitual sleep position"
+      ],
+      "key_ingredients": [
+        "Retinoids (retinol 0.3-1%, or prescription tretinoin) - the gold standard for stimulating collagen",
+        "Peptides - support skin structure",
+        "Vitamin C (10-20%) - antioxidant that also supports collagen synthesis",
+        "Hyaluronic Acid - plumps the skin via hydration",
+        "Niacinamide - supports the barrier alongside retinoid use"
+      ],
+      "routine": [
+        "AM: Gentle cleanser",
+        "AM: Vitamin C serum",
+        "AM: Hyaluronic acid",
+        "AM: SPF 30-50 - the single most important anti-aging step",
+        "PM: Cleanse",
+        "PM: Retinoid, starting 2-3x/week at a low concentration and building up slowly",
+        "PM: Peptide-containing moisturizer",
+        "PM: If irritated, apply moisturizer before the retinoid (the 'sandwich method') to buffer it",
+        "Weekly: No extra steps needed - consistency matters more than frequency"
+      ],
+      "avoid": [
+        "Unprotected sun exposure",
+        "Smoking",
+        "Skipping moisturizer",
+        "Combining a retinoid with strong exfoliating acids on the same night early on"
+      ],
+      "see_a_doctor_if": "You're interested in in-clinic options (Botox, fillers, laser resurfacing, or prescription-strength tretinoin) - a dermatologist can advise on what fits your skin and goals.",
+      "product_types": ["Vitamin C serum", "Retinoid", "Peptide moisturizer", "High-SPF sunscreen"]
+    }
+  },
+  "concern_addon_notes": {
+    "Acne marks": "These are likely post-inflammatory marks left behind after acne has healed. They usually fade on their own over months, but a brightening ingredient like niacinamide, azelaic acid, or vitamin C can speed this up - and daily SPF is essential, since sun exposure darkens these marks further and can make them long-lasting.",
+    "Blackheads": "Blackheads are open, oxidized clogs rather than true whiteheads. A BHA (salicylic acid) used consistently 3-4x a week is more effective long-term than pore strips or manual extraction, which only give temporary results and can cause irritation or scarring if done at home.",
+    "Breakouts": "Frequent or recurring breakouts suggest your current routine or a specific trigger (a new product, diet, stress, or your hormonal cycle) may be aggravating your skin. Try tracking what changed around when they started, and introduce one new active ingredient at a time so you can identify what actually helps.",
+    "Clogged pores": "Clogged pores are the earliest stage before blackheads or whiteheads fully form. Regular but gentle exfoliation with a BHA, plus avoiding heavy, comedogenic products, helps prevent them from progressing into visible breakouts.",
+    "Dark spots": "Dark spots typically respond best to a combination of a tyrosinase-inhibiting ingredient (alpha arbutin, niacinamide, or azelaic acid) and strict daily sunscreen - without consistent SPF, spots can persist indefinitely or return after treatment.",
+    "Dry cheeks": "Localized dryness on the cheeks, especially alongside oilier areas elsewhere, points toward combination skin rather than all-over dryness. Apply a richer, ceramide-based moisturizer specifically to these areas rather than across the whole face.",
+    "Dry patches": "Persistent dry, flaky patches that don't respond to regular moisturizer can indicate a compromised skin barrier. Scale back active ingredients (retinoids, acids) temporarily and focus on ceramide- and hyaluronic-acid-based repair products until the patches resolve.",
+    "Excess oil": "Excess oil doesn't mean you should skip moisturizer - doing so often triggers your skin to produce even more oil to compensate. A lightweight, oil-free, niacinamide-based moisturizer regulates output more effectively than stripping the skin.",
+    "Fine lines": "Fine lines are often the earliest visible sign of both collagen loss and dehydration. Before reaching for stronger anti-aging actives, make sure you're consistently using a hydrating serum (hyaluronic acid), then introduce a low-strength retinoid a few nights a week for longer-term improvement.",
+    "Greasy appearance": "A generally greasy look throughout the day is usually a sebum-regulation issue rather than a hydration one. Blotting papers help short-term, but niacinamide and a lightweight gel moisturizer address the underlying oil production.",
+    "Oily T-zone": "An oily T-zone with normal or dry cheeks is the hallmark of combination skin. Apply oil-controlling ingredients (niacinamide, BHA) mainly to the forehead/nose/chin, and use a lighter touch with actives on the cheeks to avoid over-drying them.",
+    "Peeling": "Visible peeling usually signals that your barrier is irritated or over-exfoliated. Pause any acids, retinoids, or scrubs immediately and focus purely on gentle cleansing and barrier repair (ceramides, panthenol) until the peeling fully resolves, then reintroduce actives slowly.",
+    "Rash": "A rash, as distinct from general redness, can indicate an allergic reaction, contact dermatitis, or an underlying condition that this tool isn't designed to diagnose. Stop using any recently introduced products, and see a doctor if it doesn't clear within a few days or if it spreads, blisters, or is painful.",
+    "Sagging skin": "Sagging is primarily a collagen and skin-structure concern rather than a surface-level one. Topical peptides and retinoids can help modestly over months, but noticeable sagging is best discussed with a dermatologist, who can advise on in-clinic options like radiofrequency or ultrasound treatments.",
+    "Skin irritation": "General irritation is a sign your barrier needs support before adding more active ingredients. Simplify your routine down to a gentle cleanser and a barrier-repair moisturizer for at least a week, then reintroduce actives one at a time afterward.",
+    "Whiteheads": "Whiteheads are closed comedones, which respond well to ingredients that penetrate the pore lining, like salicylic acid or a low-strength adapalene. Avoid squeezing them - whiteheads sit deeper than blackheads, so squeezing carries a higher risk of scarring or spreading infection.",
+    "default": "This was flagged from your description alongside the main condition above - the routine for your main condition already covers general care, but mention this specifically if you consult a dermatologist."
+  },
+  "skin_type_notes": {
+    "oily": "You've indicated oily skin - if this differs from the detected condition above, prioritize the oil-control ingredients and lightweight textures mentioned there, and avoid richer creams meant for dry skin.",
+    "dry": "You've indicated dry skin - if this differs from the detected condition above, lean toward the richer, ceramide-based products mentioned there rather than mattifying or oil-free formulas.",
+    "combination": "You've indicated combination skin - consider applying products by zone (lighter on the T-zone, richer on cheeks) regardless of the single condition detected above.",
+    "normal": "You've indicated normal skin - the general routine above should suit you well without major adjustment."
+  },
+  "disclaimer": "This is an AI-assisted, non-diagnostic screening tool for general skincare guidance only. It does not replace professional medical advice. Please consult a licensed dermatologist for persistent, worsening, or concerning skin conditions."
+}

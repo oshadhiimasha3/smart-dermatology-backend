@@ -1,0 +1,24 @@
+{
+  "classes": [
+    "Acne",
+    "Combination Skin",
+    "Dry Skin",
+    "Enlarged Pores",
+    "Hyperpigmentation",
+    "Normal Skin",
+    "Oily Skin",
+    "Redness",
+    "Wrinkles"
+  ],
+  "class_indices": {
+    "Acne": 0,
+    "Combination Skin": 1,
+    "Dry Skin": 2,
+    "Enlarged Pores": 3,
+    "Hyperpigmentation": 4,
+    "Normal Skin": 5,
+    "Oily Skin": 6,
+    "Redness": 7,
+    "Wrinkles": 8
+  }
+}

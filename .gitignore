@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+
+# Ignore huge original models (prevent GitHub push failures)
+*.keras
+*.pt
+*.pth
+*.h5
+
+# DO NOT ignore ONNX models (these are small and need to be pushed)
+!*.onnx

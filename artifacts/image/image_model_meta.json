@@ -1,0 +1,26 @@
+{
+  "model_type": "image",
+  "base_architecture": "EfficientNetB3",
+  "img_size": [
+    300,
+    300
+  ],
+  "preprocessing": "tensorflow.keras.applications.efficientnet.preprocess_input",
+  "classes": [
+    "Acne",
+    "Combination Skin",
+    "Dry Skin",
+    "Enlarged Pores",
+    "Hyperpigmentation",
+    "Normal Skin",
+    "Oily Skin",
+    "Redness",
+    "Wrinkles"
+  ],
+  "source_datasets": [
+    "killa92/facial-skin-analysis-and-type-classification",
+    "ahmedismaiil/skin-issues-version-2-dataset-balanced",
+    "shijo96john/facial-skin-acne-pigmentation-pores-wrinkles",
+    "shakyadissanayake/oily-dry-and-normal-skin-types-dataset"
+  ]
+}

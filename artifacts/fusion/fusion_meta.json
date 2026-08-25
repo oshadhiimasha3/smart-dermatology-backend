@@ -1,0 +1,55 @@
+{
+  "version": "fusion_v2",
+
+  "best_method": "Weighted Average",
+
+  "classes": [
+    "Acne",
+    "Combination Skin",
+    "Dry Skin",
+    "Enlarged Pores",
+    "Hyperpigmentation",
+    "Normal Skin",
+    "Oily Skin",
+    "Redness",
+    "Wrinkles"
+  ],
+
+  "num_classes": 9,
+
+  "weighted_average_weights": {
+    "image": 0.5,
+    "text": 0.5
+  },
+
+  "image_temperature": 0.7867,
+
+  "selection": {
+    "source": "validation_only",
+    "metric": "macro_f1",
+    "validation_macro_f1": 0.9983
+  },
+
+  "final_constructed_pair_evaluation": {
+    "accuracy": 0.9956,
+    "macro_f1": 0.9956
+  },
+
+  "methodology": {
+    "fusion_type": "global_weighted_late_fusion",
+    "image_model": "EfficientNetB3",
+    "text_model": "DistilBERT_V2",
+    "image_weight": 0.5,
+    "text_weight": 0.5,
+    "image_temperature_calibrated": true,
+    "text_temperature_calibrated": true,
+    "development_data": "validation_predictions_only",
+    "final_evaluation_data": "test_predictions_only",
+    "pairing_method": "same_ground_truth_class_without_replacement",
+    "genuine_patient_image_text_pairs": false
+  },
+
+  "deployment_note": "The 0.50 image and 0.50 text weights were selected using validation data before final test evaluation.",
+
+  "evaluation_limitation": "Fusion evaluation used constructed same-class image and text probability pairs because genuinely paired patient image-text records were unavailable. The reported fusion metrics must not be interpreted as real-world clinical diagnostic accuracy."
+}

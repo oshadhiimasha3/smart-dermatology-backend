@@ -1,0 +1,42 @@
+{
+  "main_condition_classes": [
+    "Acne",
+    "Combination Skin",
+    "Dry Skin",
+    "Enlarged Pores",
+    "Hyperpigmentation",
+    "Normal Skin",
+    "Oily Skin",
+    "Redness",
+    "Wrinkles"
+  ],
+  "main_label2id": {
+    "Acne": 0,
+    "Combination Skin": 1,
+    "Dry Skin": 2,
+    "Enlarged Pores": 3,
+    "Hyperpigmentation": 4,
+    "Normal Skin": 5,
+    "Oily Skin": 6,
+    "Redness": 7,
+    "Wrinkles": 8
+  },
+  "additional_concern_classes": [
+    "Acne marks",
+    "Blackheads",
+    "Breakouts",
+    "Clogged pores",
+    "Dark spots",
+    "Dry cheeks",
+    "Dry patches",
+    "Excess oil",
+    "Fine lines",
+    "Greasy appearance",
+    "Oily T-zone",
+    "Peeling",
+    "Rash",
+    "Sagging skin",
+    "Skin irritation",
+    "Whiteheads"
+  ]
+}
